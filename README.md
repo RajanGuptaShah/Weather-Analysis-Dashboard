@@ -1,13 +1,11 @@
-Weather Prediction Dashboard
+##Weather Prediction Dashboard
 
 
 
 Table of Contents:
 
 Introduction
-
 Features
-
 Technologies Used
 
 Dataset Information
