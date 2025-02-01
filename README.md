@@ -1,5 +1,8 @@
 Weather Prediction Dashboard
+
+
 Table of Contents
+
 Introduction
 
 Features
