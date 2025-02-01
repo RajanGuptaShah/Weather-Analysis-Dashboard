@@ -1,68 +1,70 @@
 Weather Prediction Dashboard
 
 
+
 Table of Contents
-
 Introduction
-
 Features
-
 Technologies Used
-
 Dataset Information
-
 Data Preprocessing
-
 Model Evaluation
-
 Shiny Dashboard
-
 Project Setup
-
 Usage
-
 Visualization Screenshots
-
 Future Scope
 
-Introduction
+
+Introduction:
+
 The Weather Prediction Dashboard is a comprehensive data-driven web application designed to predict weather conditions using multiple machine learning models. The application includes interactive visualizations and comparisons of model performance and predictions.
 
-Features
+
+Features:
+
 Data Preprocessing: Cleaning and normalization of weather data for accurate predictions.
 
-Machine Learning Models: Evaluation using K-Nearest Neighbors (KNN), Naive Bayes, Decision Tree, and Support Vector Machine (SVM).
 
-Model Performance Comparison: Accuracy comparison and confusion matrix visualizations for all models.
+Machine Learning Models: 
 
-Interactive Dashboard: Developed using Shiny to dynamically display model accuracies, confusion matrices, and prediction comparisons.
+Evaluation using K-Nearest Neighbors (KNN), Naive Bayes, Decision Tree, and Support Vector Machine (SVM).
 
-Technologies Used
+
+Model Performance Comparison: 
+
+Accuracy comparison and confusion matrix visualizations for all models.
+
+
+Interactive Dashboard: 
+
+Developed using Shiny to dynamically display model accuracies, confusion matrices, and prediction comparisons.
+
+
+Technologies Used:
+
 Programming Language: R
-
-Libraries:
-
-Data Processing: dplyr, caret, e1071
-
+Libraries: Data Processing: dplyr, caret, e1071
 Machine Learning: class, rpart
-
 Visualization: ggplot2, rpart.plot
-
 Dashboard: shiny
 
-Dataset Information
+
+Dataset Information:
+
 The project uses a weather dataset containing features such as precipitation type, temperature, humidity, and wind speed. The dataset was preprocessed to remove null values and duplicate entries.
 
-Data Fields
+
+Data Fields:
+
 Precip.Type: Type of precipitation (e.g., Sunny, Rain, Snow).
-
 Temperature: Temperature in Celsius.
-
 Humidity: Measured humidity levels.
-
 Wind Speed: Wind speed in km/h.
 
-Data Preprocessing
+
+Data Preprocessing:
+
 Data Cleaning: Removed duplicate records and handled missing values by assigning Sunny to null precipitation types.
 
 Feature Scaling: Normalized Temperature, Humidity, and Wind Speed using the scale() function.
