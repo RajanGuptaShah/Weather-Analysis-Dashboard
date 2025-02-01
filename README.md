@@ -3,16 +3,25 @@ Weather Prediction Dashboard
 
 
 Table of Contents:
+
 Introduction
+
 Features
+
 Technologies Used
+
 Dataset Information
+
 Data Preprocessing
+
 Model Evaluation
+
 Shiny Dashboard
+
 Project Setup
+
 Usage
-Visualization Screenshots
+
 Future Scope
 
 
